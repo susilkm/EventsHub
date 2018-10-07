@@ -6,6 +6,50 @@ body, html {
     font-size: 12px;
 }
 
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #FFFFFF;
+}
+
+.top-nav-strip {
+    height: 39px;
+    background-color: #00c3df;
+    color: #FFFFFF;
+}
+
+ul.top-nav-list {
+    list-style-type: none;
+    float: right;
+}
+
+.top-nav-list > li {
+    float: left;
+}
+
+@media (max-width: 767px) {
+    ul.top-nav-list {
+        float: left;
+    }
+
+    .top-nav-list > li {
+        float: left;
+    }
+}
+
+.top-nav-list > li > a {
+    font-size: 14px;
+    line-height: 0;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+
+.top-nav-list > li > a:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+
+
 .container {
     margin: 0 auto;
     max-width: 1400px;
