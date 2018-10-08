@@ -1,28 +1,93 @@
+<!DOCTYPE html>
 <html>
     <head>
+        <link type="text/css" href="css/grid.css" rel="stylesheet"/>
         <link type="text/css" href="css/variables.css" rel="stylesheet"/>
         <link type="text/css" href="css/main.css" rel="stylesheet"/>    
     </head>
-    <header>
-        <div class="top-nav-strip">
-            <div class="container">
-                <ul class="top-nav-list">
-                    <li><a>Menu1</a></li>
-                    <li><a>Menu1</a></li>
-                    <li><a>Menu1</a></li>
-                    <li><a>Menu1</a></li>
-                    <li><a>Menu1</a></li>
-                </ul>
+    <body>
+        <header>
+            <div class="top-nav-strip">
+                <div data-grid="container">
+                    <ul class="top-nav-list">
+                        <li><a>Menu1</a></li>
+                        <li><a>Menu1</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div data-grid="container" class="header-area">
+                <diV data-grid="col-6">
+                    <a href="#" class="site-logo">Events<span>Hub</span></a>
+                </diV>
+                <diV data-grid="col-6">
+                    <ul class="top-nav-menu-list">
+                        <li><a>Menu1</a></li>
+                        <li><a>Menu1</a></li>
+                        <li><a>Menu1</a></li>
+                        <li><a>Menu1</a></li>
+                        <li><a>Menu1</a></li>
+                    </ul>
+                </diV>
+            </div>
+        </header>
+        <div id="main-container" class="main-container">
+            <div class="hero-panel">
+                <div id="googleMap" style="width:100%;height:400px;"></div>
+            </div>
+            <div data-grid="container">
+                
             </div>
         </div>
-    </header>
-    <body>
-        Hello
+        <footer>
+            <div data-grid="container">
+                <div data-grid="col-3">
+                    <ul>
+                        <li><a>Menu1</a></li>
+                        <li><a>Menu1</a></li>
+                        <li><a>Menu1</a></li>
+                        <li><a>Menu1</a></li>
+                        <li><a>Menu1</a></li>
+                    </ul>
+                </div>
+                <div data-grid="col-3">
+                    <ul>
+                        <li><a>Menu1</a></li>
+                        <li><a>Menu1</a></li>
+                        <li><a>Menu1</a></li>
+                        <li><a>Menu1</a></li>
+                        <li><a>Menu1</a></li>
+                    </ul>
+                </div>
+                <div data-grid="col-3">
+                    <ul>
+                        <li><a>Menu1</a></li>
+                        <li><a>Menu1</a></li>
+                        <li><a>Menu1</a></li>
+                        <li><a>Menu1</a></li>
+                        <li><a>Menu1</a></li>
+                    </ul>
+                </div>
+                <div data-grid="col-3">
+                    <ul>
+                        <li><a>Menu1</a></li>
+                        <li><a>Menu1</a></li>
+                        <li><a>Menu1</a></li>
+                        <li><a>Menu1</a></li>
+                        <li><a>Menu1</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
     </body>
-    <footer>
-        Footer 1
-    </footer>
     <script>
-        
+        function myMap() {
+            var mapProp= {
+                center:new google.maps.LatLng(51.508742,-0.120850),
+                zoom:5,
+            };
+            var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+        }
     </script>
+            
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDk4OorGEtxbZFwBUtOnbZxbIoFYVi9rvs&callback=myMap"></script>
 </html>

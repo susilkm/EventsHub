@@ -1,0 +1,68 @@
+[data-grid*="col-"] {
+    float: left;
+    min-height: 1px;
+}
+
+[data-grid~=col-1] { width: 8.3333%; }
+[data-grid~=col-2] { width: 16.6666%; }
+[data-grid~=col-3] { width: 25%; }
+[data-grid~=col-4] { width: 33.3333%; }
+[data-grid~=col-5] { width: 41.6666%; }
+[data-grid~=col-6] { width: 50%; }
+[data-grid~=col-7] { width: 58.3333%; }
+[data-grid~=col-8] { width: 66.6666%; }
+[data-grid~=col-9] { width: 75%; }
+[data-grid~=col-10] { width: 83.3333%; }
+[data-grid~=col-11] { width: 91.6666%; }
+[data-grid~=col-12] { width: 100%; }
+
+/*General Font Sizes*/
+.font-size-xs { font-size: 8px; }
+.font-size-s { font-size: 10px; }
+.font-size-m { font-size: 12px; }
+.font-size-l { font-size: 14px; }
+.font-size-xl { font-size: 16px; }
+
+/*Heading Font Sizes*/
+.heading-size-xs { font-size: 18px; }
+.heading-size-s { font-size: 24px; }
+.heading-size-m { font-size: 30px; }
+.heading-size-l { font-size: 36px; }
+.heading-size-xl { font-size: 42px; }
+.heading-size-xxl { font-size: 48px; }
+
+[data-grid~=container] {
+    margin: 0 auto;
+    max-width: 1083px;
+    position: relative;
+}
+@media (min-width: 1799px) { 
+    [data-grid~=container] {
+        width: 100%;
+    }
+ }
+@media (min-width: 1400px) { 
+    [data-grid~=container] {
+        width: 90%;
+    }
+}
+@media (min-width: 1084px) { 
+    [data-grid~=container] {
+        width: 90%;
+    }
+}
+@media (min-width: 768px) { 
+    [data-grid~=container] {
+        width: 100%;
+    }
+}
+@media (min-width: 540px) { 
+    [data-grid~=container] {
+        width: 95%;
+    }
+}
+@media (min-width: 320px) { 
+    [data-grid~=container] {
+        width: 95%;
+    }
+}
