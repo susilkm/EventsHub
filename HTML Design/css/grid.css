@@ -66,3 +66,18 @@
         width: 95%;
     }
 }
+
+@media (min-width: 320px) and (max-width: 767px) { 
+    [data-grid~=col-1], 
+    [data-grid~=col-2], 
+    [data-grid~=col-3], 
+    [data-grid~=col-4],
+    [data-grid~=col-5],
+    [data-grid~=col-6],
+    [data-grid~=col-7],
+    [data-grid~=col-8],
+    [data-grid~=col-9],
+    [data-grid~=col-10],
+    [data-grid~=col-11],
+    [data-grid~=col-12] { width: 100%; }
+}
