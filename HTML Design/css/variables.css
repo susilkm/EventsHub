@@ -1,0 +1,26 @@
+:root {
+    
+    /*Color variables*/
+    --evhub-main-bg-color: #FFFFFF;
+    --evhub-main-text-color: #000000;
+    
+    --evhub-blue: blue;
+    --evhub-grey: grey;
+    --evhub-red: red;
+    --evhub-green: green;
+
+
+    /*Spacing variables*/
+    --spacing-side0: 0px;
+    --spacing-side01: 6px;
+    --spacing-side02: 12px;
+    --spacing-side03: 18px;
+    --spacing-side04: 24px;
+    --spacing-side05: 30px;
+    --spacing-side06: 36px;
+    --spacing-side07: 42px;
+    --spacing-side08: 48px;
+    --spacing-side09: 54px;
+    --spacing-side10: 60px;
+
+}
