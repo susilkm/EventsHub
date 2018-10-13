@@ -31,6 +31,7 @@ footer {
     background-color: #1d1d1d;
     color: #FFFFFF;
     position: absolute;
+    display:none;
 }
 
 footer ul {
@@ -166,6 +167,24 @@ svg {
 
 .footer-nav-social-strip {
 
+}
+.prefooter{
+    background-color: #00c3df;
+    font-weight: bold;
+    font-family:'campton';
+    float:left;
+    display:inline;
+    position:absolute;
+    color:#ffffff;
+    font-size:25px;
+}
+.biton{
+    font-size:12px;
+    background-color: #00C3df;
+    color:#ffffff;
+    border:1px solid #ffffff;
+    padding:9px 32px;
+    font-family:'fantasy';
 }
 
 
