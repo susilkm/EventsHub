@@ -186,6 +186,150 @@ svg {
     padding:9px 32px;
     font-family:'fantasy';
 }
+.part-1{
+    height:250px;
+    margin:83px 200px;
+    width:inherit;
+ }
+.floating-box{
+    float:left;
+    width:155px;
+    height:170px;
+    padding-left:50px;
+}
+.floating-box img{
+    height:170px;
+}
+.first{
+    color:#00ffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.down{
+    height:inherit;
+    width:inherit;
+}
+.second{
+    height:inherit;
+    width:inherit;
+    margin:-29px -2px;
+}
+.second img{
+    height:19px;
+    width:11px;
+    margin:18px 12px;
+}
+.part-2{
+        height:335px;
+        width:inherit;
+        margin:136px 200px;
+}
+.baton{
+    margin-left:193px;
+    font-size:12px;
+    background-color: #ffffff;
+    color:#00c3df;
+    border:1px solid #00c3df;
+    padding:9px 32px;
+}
+.vent{
+    font-size:18px;
+    color:#00c3df;
+    margin:3px;
+    font-family:'Source Sans Pro';
+    font-style:italic;
+    font-weight:bold;   
+}.dol{
+    font-size:17px;
+    color:#000000;
+    margin:5px 3px;
+    font-weight:bold;
+    font-family:'Campton'; 
+}
+.dat{
+    font-size:15px;
+    color:#808080;
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+}
+.dat svg{
+    margin:-3px 4px;
+}
+.time{
+    margin:-19px 110px;
+}
+.time img{
+    height:11px;
+    margin:-13px 93px;
+}
+.down{
+    height:inherit;
+    width:inherit;
+}
+.second{
+    height:inherit;
+    width:inherit;
+    margin:-29px -2px;
+}
+.second img{
+    height:19px;
+    width:11px;
+    margin:5px 12px;
+}
+.second svg {
+    margin: 7px 4px;
+}
+.button{
+    background-color: #00c3df;
+    border: none;
+    color: white;
+    padding: 9px 32px;
+    font-size: 12px;
+    margin: 36px 2px;
+    cursor: pointer;
+    font-family: 'Campton';
+    font-weight: bold;
+}
+.dol{
+    font-size: 17px;
+    color: #000000;
+    margin: 5px 3px;
+    font-weight: bold;
+    font-family: 'Campton';
+}
+.dat{
+    /*font-size:12px;*/
+    color:#808080;
+    font-family:'Source Sans Pro';
+    font-weight:bold; 
+}
+.sel{
+    padding:6px 249px;
+    font-size:35px;  
+}
+.main{
+    width:89%;
+    /*height:500px;*/
+    background-color:#ffffff;
+    padding-top:95px; 
+}
+.dat svg{
+    margin:-3px 4px;
+}
+.time{
+    margin:-19px 110px;
+}
+.time img{
+    height:11px;
+    margin:-13px 93px;
+}
+.word{
+    margin: -15px 134px;
+}
+.middle{
+    margin:24px 387px;
+    height:13%; 
+}
+
 
 
 
