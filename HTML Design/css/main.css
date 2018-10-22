@@ -185,10 +185,10 @@ svg {
     border:1px solid #ffffff;
     padding:9px 32px;
     font-family:'fantasy';
+    margin:64px 79px; 
 }
 .part-1{
     height:250px;
-    margin:83px 200px;
     width:inherit;
  }
 .floating-box{
@@ -221,7 +221,7 @@ svg {
 .part-2{
         height:335px;
         width:inherit;
-        margin:136px 200px;
+        margin-top:30px; 
 }
 .baton{
     margin-left:193px;
@@ -328,6 +328,55 @@ svg {
 .middle{
     margin:24px 387px;
     height:13%; 
+}
+.headder{
+    height:40px;
+    background-color:#00c3df;
+    width:100%;
+}
+.left{
+    height:inherit;
+     float:left;
+    width:50%; 
+}
+.one{
+    padding-left:247px;
+}
+.one svg{
+    margin:9px -3px;
+    float:left; 
+}
+.number{
+    margin:9px 274px;
+    color: #ffffff;
+}
+.two{
+    margin:-30px 357px;
+    float:left;
+}
+.three{
+    font-size:16px;
+    color:#ffffff;
+    margin:-28px 384px;  
+ }
+ .sentence{
+    font-size:20px;
+    font-family:'fantasy';
+    margin-top:36px;  
+}
+.bahan{
+    height:200px;
+    width:700px;
+}
+.caption{
+    padding:25px 80px;
+    font-family:'campton';
+    float:left;
+    display:inline;
+    position:absolute;
+    color:#ffffff;
+    font-size:55px;
+    font-weight:bold; 
 }
 
 
