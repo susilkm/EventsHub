@@ -141,7 +141,7 @@ a.site-logo span {
 }
 
 svg {
-    height: 20px;
+    height: 15px;
     width: 20px;
 }
 
@@ -219,9 +219,9 @@ svg {
     margin:18px 12px;
 }
 .part-2{
-        height:335px;
+        height:394px;
         width:inherit;
-        margin-top:30px; 
+        margin-top:120px; 
 }
 .baton{
     margin-left:193px;
@@ -307,7 +307,7 @@ svg {
     font-size:35px;  
 }
 .main{
-    width:89%;
+   /* width:89%;*/
     /*height:500px;*/
     background-color:#ffffff;
     padding-top:95px; 
@@ -343,8 +343,10 @@ svg {
     padding-left:247px;
 }
 .one svg{
-    margin:9px -3px;
-    float:left; 
+    margin:11px -3px;
+    float:left;
+    height: 21px;
+    width:28px;  
 }
 .number{
     margin:9px 274px;
@@ -364,7 +366,7 @@ svg {
     font-family:'fantasy';
     margin-top:36px;  
 }
-.bahan{
+.lefty{
     height:200px;
     width:700px;
 }
