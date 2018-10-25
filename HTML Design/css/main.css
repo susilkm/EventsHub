@@ -137,7 +137,7 @@ a.site-logo span {
 }
 
 .events-grid {
-
+    height: auto;
 }
 
 svg {
@@ -188,14 +188,14 @@ svg {
     margin:64px 79px; 
 }
 .part-1{
-    height:250px;
+    /*height:250px;*/
     width:inherit;
  }
 .floating-box{
     float:left;
     width:155px;
-    height:170px;
-    padding-left:50px;
+    height:300px;
+    padding:50px 20px;
 }
 .floating-box img{
     height:170px;
@@ -302,13 +302,12 @@ svg {
     font-family:'Source Sans Pro';
     font-weight:bold; 
 }
-.sel{
-    padding:6px 249px;
+.events-grid-header{
     font-size:35px;  
 }
 .main{
-   /* width:89%;*/
-    /*height:500px;*/
+    width:89%;
+    min-height:500px;
     background-color:#ffffff;
     padding-top:95px; 
 }
