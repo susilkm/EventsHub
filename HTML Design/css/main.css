@@ -379,6 +379,14 @@ svg {
     font-size:55px;
     font-weight:bold; 
 }
+.right{
+    float:right;
+    width:25%;  
+}
+.right svg{
+    height:10px;
+    padding:16px 11px;
+}
 
 
 
