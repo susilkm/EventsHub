@@ -195,7 +195,7 @@ svg {
     float:left;
     width:155px;
     height:300px;
-    padding:50px 20px;
+    padding:50px 26px;
 }
 .floating-box img{
     height:170px;
@@ -325,7 +325,7 @@ svg {
     margin: -15px 134px;
 }
 .middle{
-    margin:24px 387px;
+    margin:24px 200px;
     height:13%; 
 }
 .headder{
@@ -342,23 +342,23 @@ svg {
     padding-left:247px;
 }
 .one svg{
-    margin:11px -3px;
+    margin:11px -125px;
     float:left;
     height: 21px;
     width:28px;  
 }
 .number{
-    margin:9px 274px;
+    margin:9px 150px;
     color: #ffffff;
 }
 .two{
-    margin:-30px 357px;
+    margin:-25px 201px;
     float:left;
 }
 .three{
     font-size:16px;
     color:#ffffff;
-    margin:-28px 384px;  
+    margin:-29px 250px;  
  }
  .sentence{
     font-size:20px;
@@ -380,12 +380,11 @@ svg {
     font-weight:bold; 
 }
 .right{
-    float:right;
-    width:25%;  
+    float:right; 
 }
 .right svg{
     height:10px;
-    padding:16px 11px;
+    padding:16px 4px;
 }
 
 
